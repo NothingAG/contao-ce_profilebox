@@ -1,0 +1,24 @@
+
+<div class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+<div class="text_container">
+<h3><?php echo $this->profile_role; ?></h3>
+
+<p class="name"><?php echo $this->profile_name; ?></p>
+<?php echo $this->profile_career; ?>
+<?php if ($this->profile_phone): ?>
+<p><strong>Tel: <?php echo $this->profile_phone; ?></strong></p>
+<?php endif; ?>
+<?php if ($this->profile_email): ?>
+<p><strong>Mail: <a href="mailto:<?php echo $this->profile_email ?>"><?php echo $this->profile_name ?></a></strong></p>
+<?php endif; ?>
+</div>
+
+<?php if ($this->singleSRC): ?>
+<div class="image_container">
+<div class="image_border">
+<img src="<?php echo $this->singleSRC; ?>" alt="<?php echo $this->profile_name; ?>" title="<?php echo $this->profile_name; ?>">
+</div>
+</div>
+<?php endif; ?>
+
+</div>
