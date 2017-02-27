@@ -1,3 +1,6 @@
+# [UNMAINTAINED]
+This project is not maintained anymore.
+
 # CONTAO CONTENT ELEMENT: PROFILE BOX
 Adds a new content element to define profiles in articles. The element offers the following fields: Name, title (function inside your company or team), career (description of the person), email, phone, image.
 
